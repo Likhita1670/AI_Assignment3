@@ -40,7 +40,7 @@ def draw(grid, path, start, goal):
             else:                   row += " "
         print(row)
 
-# --- Input ---
+#  Input 
 print(f"Grid: {SIZE}x{SIZE}  |  Coords: 0 to {SIZE-1}")
 sr, sc = map(int, input("Start (row col): ").split())
 gr, gc = map(int, input("Goal  (row col): ").split())
